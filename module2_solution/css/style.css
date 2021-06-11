@@ -4,24 +4,29 @@
   body{
       font-family: Arial, Helvetica, sans-serif
 
-  }    
+  }
+  h1{
+      text-align: center;
+  }
   section{
+      border: 1px solid black ;
       position: relative;
-      width: 90%;
+      width: 95%;
       background-color: rgb(220, 100, 100);
-      border: 5px thick black;
+      padding-bottom: 20px;
       padding-left: 5px;
-      padding-bottom: 10px;
-
+ 
  
   }
   h2{
       position: relative;
       background-color: rgb(235, 255, 120);
+      border: 1px solid black;
+      bottom: 21px;
+      left: 1px;
       text-align: right;
       margin-left: 60% ;
       text-align: center;
-
   }
   .row{
     width: 100%;
