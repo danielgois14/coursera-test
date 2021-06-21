@@ -1,25 +1,54 @@
 /** HEADER **/
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+  text-decoration: none;
+}
+.category-tile {
+  background-color: lightgray;
+  height: 1000px;
+}
 #header-nav {
-  background-color: #9d978c;
+  background-color: darkgray;
+  border: black solid 2px;
   border-radius: 0;
-  border: 0;
+  padding-bottom: 20px;
 }
-
-.navbar-brand {
-  padding-top: 25px;
-}
-
 .navbar-brand h1 {
-  /* Restaurant name */
-  font-family: Arial, Helvetica, sans-serif;
   color: black;
-  font-size: 1.7em;
-  text-transform: uppercase;
-  font-weight: bold;
   margin-top: 0;
-  margin-bottom: 0;
-  line-height: 0.75;
 }
+h2 {
+  color: black;
+}
+h3 {
+  color: black;
+  padding-top: 10px;
+}
+p {
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#nav-list li {
+  border: 1px solid black;
+  text-align: center;
+  background-color: lightgray;
+  color: black;
+  padding: 5px;
+}
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+  border: 2px solid black;
+}
+.navbar-header button.navbar-toggle:focus,
+.navbar-header .icon-bar:focus {
+  border: 2px solid white;
+}
+.row {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
 .navbar-brand a:hover,
 .navbar-brand a:focus {
   text-decoration: none;
@@ -38,15 +67,11 @@
 #nav-list a span {
   font-size: 1.8em;
 }
-
-.navbar-header button.navbar-toggle,
-.navbar-header .icon-bar {
-  border: 1px solid #61122f;
-}
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -30px;
 }
+
 /* END HEADER */
 
 /********** Large devices only **********/
